@@ -4,9 +4,7 @@ WORKDIR /app
 
 COPY src/main/resources/wallet /app/wallet
 
-RUN chmod +x mvnw
-
-RUN ./mvnw clean package -DskipTests
+RUN apt-get update && apt-get install -y maven && mvn clean package -DskipTests
 
 EXPOSE 8080
 
