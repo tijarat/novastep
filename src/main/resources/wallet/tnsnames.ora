@@ -1,0 +1,12 @@
+ns_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-singapore-1.oraclecloud.com))(connect_data=(service_name=g4cbc0ce0f22fd9_ns_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+ns_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-singapore-1.oraclecloud.com))(connect_data=(service_name=g4cbc0ce0f22fd9_ns_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+ns_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-singapore-1.oraclecloud.com))(connect_data=(service_name=g4cbc0ce0f22fd9_ns_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+ns_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-singapore-1.oraclecloud.com))(connect_data=(service_name=g4cbc0ce0f22fd9_ns_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+ns_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.ap-singapore-1.oraclecloud.com))(connect_data=(service_name=g4cbc0ce0f22fd9_ns_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
