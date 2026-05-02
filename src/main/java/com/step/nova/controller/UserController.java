@@ -51,4 +51,10 @@ public class UserController
         return ResponseEntity.ok(userService.getAllUsers());
     }
     
+    @GetMapping("/test")
+    public ResponseEntity<List<User>> getUsers() 
+    {
+        return ResponseEntity.ok(userService.getAllUsers());
+    }    
+    
 }
