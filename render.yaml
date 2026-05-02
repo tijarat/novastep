@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: novastep
+    env: java
+    buildCommand: mvn clean package
+    startCommand: java -jar target/novastep-0.0.1-SNAPSHOT.jar
